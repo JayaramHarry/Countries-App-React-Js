@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #93c5fd;
+}
+.country-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #f8fafc;
+  height: 30vh;
+  width: 35vw;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #000000;
+}
+.select-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.select-box {
+  min-width: 160px;
+  height: 40px;
+  margin-right: 7px;
+  color: #323f4b;
+  font-weight: bold;
+  cursor: pointer;
+}
+.option {
+  font-family: 'Roboto';
+  color: #000000;
+}
+.paragraph {
+  font-family: 'Roboto';
+}
